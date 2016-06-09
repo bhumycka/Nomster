@@ -1,13 +1,20 @@
 .navbar.navbar-inverse {
-	background:url('/assets/random_grey_variations.png');
+	background:url('/assets/dark_wood.png');
 	border-radius: 0;
 	box-shadow: 0px 1px 3px #2a2a2a;
 }
 
+.navbar-inverse .navbar-brand{
+	color: #80E334;
+	font-family: 'Roboto Slab', serif;
+}
+
 body {
-	background: url('/assets/food.png');
+	background: url('/assets/wood.png');
 	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
