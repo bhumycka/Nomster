@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#Pagination
+gem 'will_paginate'
+
 # Rails 12factor Gem
 gem 'rails_12factor', group: :production
 
