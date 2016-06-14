@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 #Pagination
-gem 'will_paginate'
+gem 'will_paginate-bootstrap'
 
 # Rails 12factor Gem
 gem 'rails_12factor', group: :production
@@ -42,6 +42,8 @@ end
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
+
+gem 'simple_form'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
