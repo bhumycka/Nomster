@@ -15,5 +15,4 @@ GEOCODER_API_KEY: "DGoPRNmHjt5OQYCkfmjw~geMscuLOqTLw1_M22WrddA~AhE3nVShfDjnGWJz4
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
