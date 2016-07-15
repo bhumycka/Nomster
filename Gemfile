@@ -7,7 +7,7 @@ gem 'will_paginate-bootstrap'
 gem 'rails_12factor', group: :production
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.1'
+gem 'rails', '4.0.4'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -44,6 +44,10 @@ gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'devise', '>=3.2.4'
+
+gem "geocoder", "1.3.4"
+
+gem "figaro", ">= 1.0.0"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
