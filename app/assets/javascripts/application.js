@@ -12,7 +12,10 @@ GEOCODER_API_KEY: "DGoPRNmHjt5OQYCkfmjw~geMscuLOqTLw1_M22WrddA~AhE3nVShfDjnGWJz4
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require bootstrap-sprockets
 //= require jquery_ujs
+
+//= require jquery
+
+//= require bootstrap-sprockets
+//= require turbolinks
 //= require_tree .
