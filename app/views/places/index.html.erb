@@ -7,36 +7,38 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner">
+  <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <%= image_tag 'restaurant.jpeg' %>
+      <%= image_tag 'pizza.jpg', :class=> 'img-responsive' %>
       <div class="carousel-caption">
-        Discover the best Lebanese food joints
+        Looking for pizza?
       </div>
     </div>
-     
-    <div class="item 1">
-      <%= image_tag 'pizza.jpg' %>
-        <div class="carousel-caption">
-          Looking for pizza?
+    <div class="item">
+      <%= image_tag 'restaurant.jpeg', :class=> 'img-responsive' %>
+      <div class="carousel-caption">
+         Discover the best Lebanese food
       </div>
     </div>
+    <div class="item">
+      <%= image_tag 'brunch.jpg', :class=> 'img-responsive' %>
+      <div class="carousel-caption">
+          Nothing like a Sunday brunch with friends
 
-    <div class="item 2">
-    <%= image_tag 'brunch.jpg' %>
-    <div class="carousel-caption">
-      Nothing like Sunday brunch with friends
-    </div>
+      </div>
     </div>
   </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
+    <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
   </a>
+</div>
 </div>
 
 <% @places.each do |place| %>
