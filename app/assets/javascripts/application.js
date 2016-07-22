@@ -1,5 +1,3 @@
-GEOCODER_API_KEY: "DGoPRNmHjt5OQYCkfmjw~geMscuLOqTLw1_M22WrddA~AhE3nVShfDjnGWJz4ewvLQlna1JTmaLxv7bzOeGfAzTq4qf_ijJi15sH6-DPAomm"
-
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
@@ -17,5 +15,4 @@ GEOCODER_API_KEY: "DGoPRNmHjt5OQYCkfmjw~geMscuLOqTLw1_M22WrddA~AhE3nVShfDjnGWJz4
 //= require jquery
 
 //= require bootstrap-sprockets
-//= require turbolinks
 //= require_tree .
