@@ -7,15 +7,16 @@
 
 .navbar-inverse .navbar-brand{
 	color: #80E334;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Kaushan Script', serif;
+  font-size: 32px;
 }
 
 body {
-	background: url('/assets/wood.png');
+	background: url('/assets/dark_wood.png');
 	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -75,6 +76,7 @@ blockquote p {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
     max-height: 600px;
+    line-height: 1;
 }
 
 .carousel-caption {
